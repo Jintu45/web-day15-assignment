@@ -6,7 +6,55 @@ h1, h2, h3, h4, h5, h6{
     font-family: 'Oswald', sans-serif;
 }
 /* ------------------header section----------- */
+.header-menu {
+    padding-left: 15%;
+}
 .header-menu li{
     padding: 0px 15px;
     color: rgb(35, 35, 35);
+}
+/* --------------------slider section ----------- */
+.slider-img{
+    filter: brightness(50%);
+}
+.img-title{
+    position: absolute;
+    display:table;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align:center;
+    color: #fff;
+}
+
+/* ---------------course section design--------------- */
+.course-items{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.course-img {
+    grid-column: 1;
+}
+.course-content{}
+
+
+
+
+
+/*------------------ media quarey--------------  */
+@media screen and (max-width:576px) {
+    .course-items{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .course-img {
+        grid-column:1 / 3;
+        margin-bottom: 15px;
+    }
+    .course-content{
+        grid-column:1 / 3;
+    }
 }
