@@ -102,7 +102,9 @@ footer{
     .img-title p{
         font-size: 12px;
     }
-    
+    .frequently{
+        width:100% !important;
+    }
 }
 
 @media screen and (max-width:576px) {
@@ -129,8 +131,6 @@ footer{
     .contact{
         text-align: center;
     }
-    .frequently{
-        width:100% !important;
-    }
+    
    
 }
