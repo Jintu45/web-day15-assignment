@@ -90,9 +90,27 @@ footer{
     .contact{
         text-align: center;
     }
+    .feedback-angle{
+        display: none;
+    }
+    .feedback-right-angle{
+        display: none;
+    }
+    .img-title h2{
+        font-size: 25px;
+    }
+    .img-title p{
+        font-size: 12px;
+    }
 }
 
 @media screen and (max-width:576px) {
+    .img-title h2{
+        font-size: 20px;
+    }
+    .img-title p{
+        font-size: 10px;
+    }
     .course-items{
         display: grid;
         grid-template-columns: repeat(2, 1fr);
