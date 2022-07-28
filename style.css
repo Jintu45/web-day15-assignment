@@ -57,4 +57,51 @@ h1, h2, h3, h4, h5, h6{
     .course-content{
         grid-column:1 / 3;
     }
+    .contact-btn{
+        text-align: center;
+    }
+}
+
+/* --------------contact section--------------- */
+.contact-btn{
+    text-align: right;
+}
+.contact-btn a {
+    text-decoration: none;
+    background: #fff;
+    color: #0d6efd;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+/*------------------------- feedback section--------------------- */
+.feedbacks{
+
+}
+.feedback-angle{
+    left: -20px;
+    background: #0056a878;
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.feedback-right-angle{
+    right: -20px;
+    background: #0576e1;
+    display: block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    border-radius: 50%;
+    color: #fff;
+}
+.yellow{
+    color: rgb(255, 225, 0);
 }
