@@ -82,7 +82,7 @@ footer{
     color: #fff;
     padding: 0px 15px;
 }
-/*------------------ media quarey--------------  */
+/*------------------ some responsive--------------  */
 @media screen and (max-width:968px){
     .company-section{
         display: none;
@@ -102,6 +102,7 @@ footer{
     .img-title p{
         font-size: 12px;
     }
+    
 }
 
 @media screen and (max-width:576px) {
@@ -127,6 +128,9 @@ footer{
     }
     .contact{
         text-align: center;
+    }
+    .frequently{
+        width:100% !important;
     }
    
 }
